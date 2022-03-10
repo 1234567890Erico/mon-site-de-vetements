@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Feuille CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ma Boutique</title>
+  </head>
+  <body>
+    <div class="conteneur">
+      <header>
+        <h1>Ma Boutique</h1>
+      </header>
+
+      <main>
+        <div class="formulaire">
+          <p class="filtres">Filtres:</p>
+          <!-- form#formulaireFiltres -->
+          <form id="formulaireFiltres">
+            <label>Categorie</label>
+            <select id="categorie">
+              <option></option>
+              <option>Tshirt</option>
+              <option>Chemise</option>
+              <option>Polo</option>
+            </select>
+            <br />
+            <label>Couleur</label>
+            <select id="couleur">
+              <!-- option*7 -->
+              <option></option>
+              <option>Bleu</option>
+              <option>Blanc</option>
+              <option>Noir</option>
+              <option>Gris</option>
+              <option>Rouge</option>
+              <option>Marron</option>
+            </select>
+            <br />
+            <label>Prix Max</label>
+            <input type="text" id="prixMax" />
+            <hr />
+            <button id="rechercher">Rechercher</button>
+          </form>
+        </div>
+        <div class="affichageProduits">
+          <!-- Tshirt -->
+          <div class="blocProduit">
+            <h3>Tshirt noir</h3>
+            <img src="img/tshirt-noir.jpg" alt="" />
+            <p>Tshirt - noir</p>
+            <p>12.00€</p>
+          </div>
+          <div class="blocProduit">
+            <h3>Tshirt gris</h3>
+            <img src="img/tshirt-gris.jpg" alt="" />
+            <p>Tshirt - gris</p>
+            <p>12.00€</p>
+          </div>
+          <div class="blocProduit">
+            <h3>Tshirt blanc</h3>
+            <img src="img/tshirt-blanc.jpg" alt="" />
+            <p>Tshirt - blanc</p>
+            <p>12.00€</p>
+          </div>
+          <!-- Chemise -->
+          <div class="blocProduit">
+            <h3>Chemise blanche</h3>
+            <img src="img/chemise-blanche.jpg" alt="" />
+            <p>Chemise - blanche</p>
+            <p>12.00€</p>
+          </div>
+          <div class="blocProduit">
+            <h3>Chemise bleue</h3>
+            <img src="img/chemise-bleue.jpg" alt="" />
+            <p>Chemise - bleue</p>
+            <p>12.00€</p>
+          </div>
+          <div class="blocProduit">
+            <h3>Chemise noire</h3>
+            <img src="img/chemise-noire.jpg" alt="" />
+            <p>Chemise - noire</p>
+            <p>12.00€</p>
+          </div>
+          <!-- Polo -->
+          <div class="blocProduit">
+            <h3>Polo rouge</h3>
+            <img src="img/Polo-rouge.jpg" alt="" />
+            <p>Polo - rouge</p>
+            <p>12.00€</p>
+          </div>
+          <div class="blocProduit">
+            <h3>Polo bleu</h3>
+            <img src="img/Polo-bleu.jpg" alt="" />
+            <p>Polo - bleu</p>
+            <p>12.00€</p>
+          </div>
+          <div class="blocProduit">
+            <h3>Polo marron</h3>
+            <img src="img/Polo-marron.jpg" alt="" />
+            <p>Polo - marron</p>
+            <p>12.00€</p>
+          </div>
+        </div>
+      </main>
+      <footer>Copyright &copy 2022</footer>
+    </div>
+  </body>
+</html>
